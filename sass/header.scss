@@ -1,0 +1,124 @@
+@import "base";
+
+// styles for header
+.header{
+	position: relative;
+	background: url(../img/bg.jpg) no-repeat  50% 0%;
+	&.header_alt{
+		background: url(../img/bg_alt.jpg) no-repeat  50% 0%;
+		height: 848px;
+	}
+
+}
+
+	// wrapper
+	.header__top{
+		height: 78px;
+		@extend %site;
+	}
+
+		// logotype
+		.header__logo{
+			a{
+				@extend %hide-text;
+				@include sized-sprite($icons, logo);
+				position: absolute;
+				top: 24px;
+				left: 2px;
+				// font-size: 36px;
+				// color: #012f57;
+			}
+		}
+
+		// lang menu
+		.header__lang{
+			position: absolute;
+			top: 30px;
+			right: -37px;
+			color: #67add9;
+			font-size: 16px;
+			a{
+				color: #1d709e;
+				position: relative;
+				margin-right: 30px;
+				&.selected{
+					color: #222;
+					cursor: default;
+					&:hover{text-decoration: none;}
+				}
+				&:before{
+					width: 1px;
+					height: 26px;
+					background: #67add9;
+					content: "";
+					position: absolute;
+					top: -4px;
+					left: -14px;
+				}
+				&:first-child{
+					&:before{
+						content: none;
+					}
+				}
+			}
+		}
+
+// navigation
+.nav{
+	position: relative;
+	background-color: #217ab0;
+	height: 52px;
+	line-height: 52px;
+	color: #fff;
+	font-size: 16px;
+	@include text-shadow(0 -1px 0 rgba(1,1,1,.75));
+	&:before{
+		background: url(../img/nav_top.png) repeat-x;
+		position: absolute;
+		top: -3px;
+		left: 0;
+		content: "";
+		height: 3px;
+		width: 100%;
+	}
+	&:after{
+		background: url(../img/nav_bottom.png) repeat-x;
+		position: absolute;
+		bottom: -3px;
+		left: 0;
+		content: "";
+		height: 3px;
+		width: 100%;
+	}
+	a{color: inherit;}
+	ul{list-style: none;}
+	li{
+		display: inline-block;
+		position: relative;
+		margin-right: 17px; //tmp
+	}
+}
+
+// highlight
+.highlight{
+	@extend %site;
+	font-family: "Trebuchet MS", "Helvetica CY", sans-serif;
+	@include text-shadow(0 0 13px #fff);
+	color: #323232;
+	font-size: 22px;
+	.wrapper{
+		width: 503px;
+		position: absolute;
+		top: 38px;
+		right: -4px;
+	}
+	.highlight__heading{
+		// TODO: font-family: "HeliosLight";
+		color: #0a529d;
+		font-size: 57px;
+		margin-bottom: 0.35em;
+	}
+	a{
+		font-size: 17px;
+	}
+}

@@ -1,0 +1,10 @@
+* { margin: 0; padding: 0; -webkit-text-size-adjust: none; }
+
+body { font-family: Arial,sans-serif; font-weight: normal; font-size: 12px; line-height: 1.3; min-width: 1050px; }
+
+a img, fieldset { border: none; }
+
+a { color: #00919e; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.wrapper { position: relative; width: 1024px; margin: 0 auto; }
