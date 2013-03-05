@@ -110,13 +110,13 @@
 		font-size: 17px;
 		font-weight: bold;
 		margin-left: 28px;
-		&:before{
-			@include sized-sprite($icons, cover_ico);
-			position: absolute;
-			top: -6px;
-			left: 19px;
-			content: "";
-		}
+	}
+	.footer__cover-ico{
+		@include sized-sprite($icons, cover_ico);
+		position: absolute;
+		top: -6px;
+		left: 19px;
+		content: "";
 	}
 	.footer__feedback-info{
 		margin-top: 0.8em;
@@ -192,8 +192,14 @@
 			height: 26px;
 			line-height: 26px;
 			margin-top: 11px;
-			a{margin-left: 6px;}
-			img{
-				vertical-align: middle;
+			a{
+				margin-left: 6px;
+				display: inline-block;
+				vertical-align: top;
+				@extend %hide-text;
+					&.share_fb{@include sized-sprite($icons, fb);}
+					&.share_tw{@include sized-sprite($icons, tw);}
+					&.share_gp{@include sized-sprite($icons, gp);}
+					&.share_vk{@include sized-sprite($icons, vk);}
 			}
 		}

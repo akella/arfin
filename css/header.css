@@ -1,11 +1,11 @@
 .header__logo a { font: 0/0 a; text-shadow: none; color: transparent; }
 
-.header { position: relative; background: url(../img/bg.jpg) no-repeat 50% 0%; }
-.header.header_alt { background: url(../img/bg_alt.jpg) no-repeat 50% 0%; height: 848px; }
+.header { position: relative; background: url(../img/bg.jpg) no-repeat 50% 0%; min-height: 195px; }
+.header.header_alt { background: url(../img/bg_alt.jpg) no-repeat 50% 0%; min-height: 848px; }
 
 .header__top { height: 78px; }
 
-.header__logo a { background: url('../img/icons-sa7a0411aa5.png') 0 0 no-repeat; width: 209px; height: 29px; position: absolute; top: 24px; left: 2px; }
+.header__logo a { background: url('../img/icons-s44d7819f31.png') 0 0 no-repeat; width: 209px; height: 29px; position: absolute; top: 24px; left: 2px; }
 
 .header__lang { position: absolute; top: 30px; right: -37px; color: #67add9; font-size: 16px; }
 .header__lang a { color: #1d709e; position: relative; margin-right: 30px; }
