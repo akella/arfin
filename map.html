@@ -21,6 +21,8 @@
         }
     </script>
 	<!-- /YANDEX-MAP -->
+	<script src="js/jquery.tools.min.js"></script>
+	<script src="js/common.js"></script>
 	<meta name="viewport" content="width=device-width"/>
 </head>
 <body>
@@ -82,7 +84,49 @@
 	</div>
 	<!-- /END map -->
 	<div class="wrapper">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum cupiditate labore adipisci nostrum quasi magni nemo tempora corporis ullam pariatur praesentium soluta quo dolores tempore reiciendis quaerat assumenda. Natus ex?
+		<!-- BEGIN location -->
+		<div class="location">
+			<div class="location__search">
+				<form action="/" method="/">
+					<input type="text" class="location__search-text" name="/" id="/" placeholder="Введите область">
+					<input type="submit" class="location__search-submit btn" value="Показать">
+				</form>
+			</div>
+			<div class="location__list">
+				<ul>
+					<li><a  class="js-active" href="#">Киевская обл.</a>
+						<ul>
+							<li><a href="#">Киев</a></li>
+							<li><a href="#">Белая церковь</a></li>
+							<li><a class="js-active" href="#">Бровары</a>
+								<ul>
+									<li><a href="#">ул. Проспект победы 87/4</a></li>
+									<li><a href="#">ул. Победы 87/4</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Киев</a></li>
+							<li><a href="#">Белая церковь</a></li>
+							<li><a href="#">Бровары</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Винницкая обл.</a></li>
+					<li><a href="#">Львовская обл.</a></li>
+					<li><a href="#">Кировоградская обл.</a></li>
+					<li><a href="#">Ивано-Франковская обл.</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- /END location -->
+
+		<!-- BEGIN share -->
+		<div class="share">
+			<a href="#"><img src="img/share_fb.png" alt="fb"></a>
+			<a href="#"><img src="img/share_tw.png" alt="tw"></a>
+			<a href="#"><img src="img/share_gp.png" alt="gp"></a>
+			<a href="#"><img src="img/share_vk.png" alt="vk"></a>
+		</div>
+		<!-- /END share -->
+
 	</div>
 </div>
 <!-- /END content -->
