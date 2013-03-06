@@ -298,6 +298,7 @@
 .content__title{
 	color: #fff;
 	font-size: 30px;
+	margin-bottom: 1em;
 	// TODO: font-family: "HeliosLight";
 }
 
@@ -565,15 +566,8 @@
 //list
 #js-list{
 	//@extend %clr;
-	// margin-top: 26px;
-	// margin-bottom: 64px;
-	margin: 26px auto 64px;
+	margin: 0 auto 64px;
 	// height:1%; // IE
-	&:after{
-		content:"";
-		display:block;
-		clear:both;
-	}
 }
 	.list__item{
 		float: left;

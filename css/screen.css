@@ -188,7 +188,7 @@ a:hover { text-decoration: underline; }
 
 .item__flipper { -moz-transition: all 0.6s ease-in-out; -o-transition: all 0.6s ease-in-out; -webkit-transition: all 0.6s ease-in-out; -ms-transition: all 0.6s ease-in-out; transition: all 0.6s ease-in-out; -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -ms-transform-style: preserve-3d; -o-transform-style: preserve-3d; transform-style: preserve-3d; position: relative; }
 
-.content__title { color: #fff; font-size: 30px; }
+.content__title { color: #fff; font-size: 30px; margin-bottom: 1em; }
 
 .breadcrumbs { margin-bottom: 20px; color: #54bdff; font-family: "Arial"; font-size: 12px; text-shadow: 0 -1px 0 rgba(1, 1, 1, 0.75); }
 .breadcrumbs a { background: url(../img/icons/breadcrumbs_ico.png) 100% 50% no-repeat; padding-right: 5px; }
@@ -268,8 +268,7 @@ figure.figure_left { float: left; margin: 0 20px 0 0; }
 
 .comments__add-heading { color: #b4cad8; font-weight: bold; font-size: 13px; }
 
-#js-list { margin: 26px auto 64px; }
-#js-list:after { content: ""; display: block; clear: both; }
+#js-list { margin: 0 auto 64px; }
 
 .list__item { float: left; padding: 25px 32px 30px 27px; margin: 13px 26px 13px 0; width: 248px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; -webkit-background-clip: padding; -moz-background-clip: padding; background-clip: padding-box; background-color: #115ba7; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; transition-duration: 0.5s; }
 .list__item .arrow { font-size: 14px; }
