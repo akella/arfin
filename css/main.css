@@ -1,3 +1,5 @@
+.btn_loading { font: 0/0 a; text-shadow: none; color: transparent; }
+
 .content .wrapper, .share, .share_article a { *zoom: 1; }
 .content .wrapper:before, .share:before, .share_article a:before, .content .wrapper:after, .share:after, .share_article a:after { content: " "; display: table; }
 .content .wrapper:after, .share:after, .share_article a:after { clear: both; }
@@ -6,14 +8,16 @@
 .arrow:after { position: absolute; top: 50%; right: -10px; content: ""; margin: -2.5px 0 0 0; }
 
 .arrow_lighten { color: #54bdff; }
-.arrow_lighten:after { background: url('../img/icons-se37b2a3ad7.png') 0 -230px no-repeat; width: 5px; height: 5px; }
+.arrow_lighten:after { background: url('../img/icons-s11e0bc1e3a.png') 0 -289px no-repeat; width: 5px; height: 5px; }
 
 .arrow_darken { color: #0075be; }
-.arrow_darken:after { background: url('../img/icons-se37b2a3ad7.png') 0 -245px no-repeat; width: 5px; height: 5px; }
+.arrow_darken:after { background: url('../img/icons-s11e0bc1e3a.png') 0 -304px no-repeat; width: 5px; height: 5px; }
 
 .btn { display: inline-block; height: 35px; line-height: 35px; color: white !important; padding: 0 8px; font-family: "Trebuchet MS", "Helvetica CY", sans-serif; font-size: 18px; text-decoration: none; background-color: #2179af; border: 0; cursor: pointer; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; -webkit-background-clip: padding; -moz-background-clip: padding; background-clip: padding-box; }
 .btn:hover { text-decoration: none; background-color: #1689cf; }
 .btn:active { -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05); }
+
+.btn_loading { display: block; background: url('../img/icons-s11e0bc1e3a.png') 0 -39px no-repeat; width: 48px; height: 49px; cursor: pointer; position: absolute; left: 50%; top: -60px; margin-left: -24px; }
 
 .content { margin: 0 auto; background-color: #09427d; position: relative; color: #b4cad8; font-size: 16px; font-family: "Trebuchet MS", "Helvetica CY", sans-serif; }
 .content:before { background: url(../img/content_top.png) repeat-x; position: absolute; top: -23px; left: 0; content: ""; height: 23px; width: 100%; }
@@ -122,7 +126,7 @@ figure.figure_left { float: left; margin: 0 20px 0 0; }
 #js-list { margin: 26px auto 64px; }
 #js-list:after { content: ""; display: block; clear: both; }
 
-.list__item { height: auto; float: left; padding: 30px; margin: 13px 26px 13px 0; width: 248px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; -webkit-background-clip: padding; -moz-background-clip: padding; background-clip: padding-box; background-color: #115ba7; }
+.list__item { height: auto; float: left; padding: 30px; margin: 13px 26px 13px 0; width: 248px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; -webkit-background-clip: padding; -moz-background-clip: padding; background-clip: padding-box; background-color: #115ba7; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; transition-duration: 0.5s; }
 .list__item .arrow { font-size: 14px; }
 
 .list__heading { font-size: 19px; color: #eaf7ff; }
@@ -130,6 +134,7 @@ figure.figure_left { float: left; margin: 0 20px 0 0; }
 .list__date { font-size: 12px; color: #b4cad8; }
 
 .list__image { width: 250px; overflow: hidden; }
-.list__image img { max-width: 250px; }
 
 .list_info { font-size: 14px; color: #b4cad8; }
+
+.list__load { position: relative; margin-bottom: 140px; }
