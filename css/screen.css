@@ -149,7 +149,7 @@ a:hover { text-decoration: underline; }
 
 .lightbox_open { display: block; }
 
-.popup { font-family: "Trebuchet MS", "Helvetica CY", sans-serif; text-align: center; display: none; width: 908px; height: auto; -webkit-background-clip: padding; -moz-background-clip: padding; background-clip: padding-box; -webkit-border-radius: 20px 20px 0 0; -moz-border-radius: 20px 20px 0 0; -ms-border-radius: 20px 20px 0 0; -o-border-radius: 20px 20px 0 0; border-radius: 20px 20px 0 0; position: absolute; top: 30px; left: 50%; margin: 0 0 0 -454px; z-index: 10010; background-color: #fff; }
+.popup { font-family: "Trebuchet MS", "Helvetica CY", sans-serif; text-align: center; display: none; width: 908px; height: auto; -webkit-background-clip: padding; -moz-background-clip: padding; background-clip: padding-box; -webkit-border-radius: 20px 20px 0 0; -moz-border-radius: 20px 20px 0 0; -ms-border-radius: 20px 20px 0 0; -o-border-radius: 20px 20px 0 0; border-radius: 20px 20px 0 0; position: fixed; top: 30px; left: 50%; margin: 0 0 0 -454px; z-index: 10010; background-color: #fff; }
 .popup:after { position: absolute; background: url("../img/wave_popup.png") no-repeat; bottom: -53px; left: 0; content: ""; width: 909px; height: 200px; }
 
 .popup_open { display: block; }
