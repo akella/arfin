@@ -1,6 +1,12 @@
 @import "base";
 // styles for mainpage
 
+@mixin font-smoothing($val: antialiased) {
+  -webkit-font-smoothing: $val;
+  -moz-font-smoothing: $val;
+  -ms-font-smoothing: $val;
+  -o-font-smoothing: $val;
+}
 
 // links
 .arrow{
@@ -467,8 +473,13 @@
 		.arrow{
 			font-size: 14px;
 		}
-		&:hover{@include transform(rotate(1deg))}
-		&:nth-child(2n+1):hover{@include transform(rotate(-1deg))}
+		&:hover{
+			@include transform(rotate(1deg) scale(1.1) translate3d( 0, 0, 0));
+			@include font-smoothing($val: antialiased);
+		}
+		&:nth-child(2n+1):hover{
+			@include transform(rotate(-1deg) scale(1.1) translate3d( 0, 0, 0));
+		}
 	}
 	.list__heading{
 		font-size: 19px;
