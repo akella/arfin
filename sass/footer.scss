@@ -159,6 +159,9 @@
 		font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
 		padding-top: 60px;
 		margin-bottom: 31px;
+		&.footer__primary_alt{
+			padding-top: 42px;
+		}
 	}
 		.footer__nav{
 			float: left;
