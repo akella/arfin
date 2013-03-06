@@ -247,8 +247,10 @@ figure.figure_left { float: left; margin: 0 20px 0 0; }
 #js-list { margin: 26px auto 64px; }
 #js-list:after { content: ""; display: block; clear: both; }
 
-.list__item { height: auto; float: left; padding: 30px; margin: 13px 26px 13px 0; width: 248px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; -webkit-background-clip: padding; -moz-background-clip: padding; background-clip: padding-box; background-color: #115ba7; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; transition-duration: 0.5s; }
+.list__item { float: left; padding: 30px; margin: 13px 26px 13px 0; width: 248px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -ms-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; -webkit-background-clip: padding; -moz-background-clip: padding; background-clip: padding-box; background-color: #115ba7; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; transition-duration: 0.5s; }
 .list__item .arrow { font-size: 14px; }
+.list__item:hover { -webkit-transform: rotate(1deg); -moz-transform: rotate(1deg); -ms-transform: rotate(1deg); -o-transform: rotate(1deg); transform: rotate(1deg); }
+.list__item:nth-child(2n+1):hover { -webkit-transform: rotate(-1deg); -moz-transform: rotate(-1deg); -ms-transform: rotate(-1deg); -o-transform: rotate(-1deg); transform: rotate(-1deg); }
 
 .list__heading { font-size: 19px; color: #eaf7ff; }
 

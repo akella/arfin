@@ -456,23 +456,19 @@
 	}
 }
 	.list__item{
-		height: auto;
 		float: left;
 		padding: 30px;
 		margin: 13px 26px 13px 0;
 		width: 248px;
-		//margin: 15px;
 		@include border-radius(20px);
 		@include background-clip(padding-box);
 		background-color: #115ba7;
-		// -webkit-transition-duration: 0.5s;
-		// -moz-transition-duration: 0.5s;
-		// -o-transition-duration: 0.5s;
-		// transition-duration: 0.5s;
 		@include transition-duration(0.5s);
 		.arrow{
 			font-size: 14px;
 		}
+		&:hover{@include transform(rotate(1deg))}
+		&:nth-child(2n+1):hover{@include transform(rotate(-1deg))}
 	}
 	.list__heading{
 		font-size: 19px;
