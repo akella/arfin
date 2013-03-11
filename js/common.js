@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+	// location dropdown list after yandex-map
 	jQuery(".location li:has('ul')").toggle(
 		function(){
 			jQuery(this).children('ul').show();
@@ -11,6 +11,13 @@ $(document).ready(function() {
 		}
 	);
 
+	// primary navigation dropdown
+	$('.js-dropdown').hover(
+       function(){ $(this).addClass('js-open') },
+       function(){ $(this).removeClass('js-open') }
+	);
+
+	// masonry
 	$('#js-list').masonry({
 		// указываем элемент-контейнер в котором расположены блоки для динамической верстки
 		itemSelector: '.list__item',
@@ -28,5 +35,4 @@ $(document).ready(function() {
 		}
 		// опции анимации - очередь и продолжительность анимации
 	 });
-
 });

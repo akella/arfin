@@ -5,7 +5,7 @@
 .popup__check:after, .content .wrapper:after, .share:after, .share_article a:after { clear: both; }
 
 .arrow { position: relative; line-height: 1; }
-.arrow:after { position: absolute; top: 50%; right: -10px; content: ""; margin: -2.5px 0 0 0; }
+.arrow:after { position: absolute; top: 50%; right: -10px; content: ""; margin: -2px 0 0 0; }
 
 .arrow_lighten { color: #54bdff; }
 .arrow_lighten:after { background: url('../img/icons-s5dc0727dd5.png') 0 -318px no-repeat; width: 5px; height: 5px; }
@@ -156,7 +156,7 @@ figure.figure_left { float: left; margin: 0 20px 0 0; }
 .list__item:hover { -webkit-transform: rotate(1deg) scale(1.1) translate3d(0, 0, 0); -moz-transform: rotate(1deg) scale(1.1) translate3d(0, 0, 0); -ms-transform: rotate(1deg) scale(1.1) translate3d(0, 0, 0); -o-transform: rotate(1deg) scale(1.1) translate3d(0, 0, 0); transform: rotate(1deg) scale(1.1) translate3d(0, 0, 0); -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
 .list__item:nth-child(2n+1):hover { -webkit-transform: rotate(-1deg) scale(1.1) translate3d(0, 0, 0); -moz-transform: rotate(-1deg) scale(1.1) translate3d(0, 0, 0); -ms-transform: rotate(-1deg) scale(1.1) translate3d(0, 0, 0); -o-transform: rotate(-1deg) scale(1.1) translate3d(0, 0, 0); transform: rotate(-1deg) scale(1.1) translate3d(0, 0, 0); -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
 
-.list__heading { font-size: 19px; color: #eaf7ff; margin-bottom: 0.2em; }
+.list__heading { font-size: 19px; color: #eaf7ff; margin-bottom: 0.2em; font-weight: normal; }
 
 .list__date { font-size: 12px; color: #b4cad8; margin-bottom: 0.6em; }
 

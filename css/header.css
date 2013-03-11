@@ -14,13 +14,6 @@
 .header__lang a:before { width: 1px; height: 26px; background: #67add9; content: ""; position: absolute; top: -4px; left: -14px; }
 .header__lang a:first-child:before { content: none; }
 
-.nav { position: relative; background-color: #217ab0; height: 52px; line-height: 52px; color: #fff; font-size: 16px; text-shadow: 0 -1px 0 rgba(1, 1, 1, 0.75); }
-.nav:before { background: url(../img/nav_top.png) repeat-x; position: absolute; top: -3px; left: 0; content: ""; height: 3px; width: 100%; }
-.nav:after { background: url(../img/nav_bottom.png) repeat-x; position: absolute; bottom: -3px; left: 0; content: ""; height: 3px; width: 100%; }
-.nav a { color: inherit; }
-.nav ul { list-style: none; }
-.nav li { display: inline-block; position: relative; margin-right: 17px; }
-
 .highlight { font-family: "Trebuchet MS", "Helvetica CY", sans-serif; text-shadow: 0 0 13px white; color: #323232; font-size: 22px; }
 .highlight .wrapper { width: 503px; position: absolute; top: 46px; right: -9px; }
 .highlight .highlight__heading { font-family: "HeliosLight", Arial, sans-serif; font-weight: normal; font-style: italic; color: #0a529d; font-size: 57px; margin-bottom: 0.25em; }
