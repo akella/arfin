@@ -4,10 +4,11 @@
 .header{
 	position: relative;
 	background: url(../img/bg.jpg) no-repeat  50% 0%;
-	min-height: 195px;
+	height: 195px;
 	&.header_alt{
+		position: relative;
 		background: url(../img/bg_alt.jpg) no-repeat  50% 0%;
-		min-height: 848px;
+		height: 848px;
 	}
 
 }
@@ -110,14 +111,16 @@
 	.wrapper{
 		width: 503px;
 		position: absolute;
-		top: 38px;
-		right: -4px;
+		top: 46px;
+		right: -9px;
 	}
 	.highlight__heading{
-		// TODO: font-family: "HeliosLight";
+		font-family:'HeliosLight', Arial, sans-serif;
+		font-weight: normal;
+		font-style: italic;
 		color: #0a529d;
 		font-size: 57px;
-		margin-bottom: 0.35em;
+		margin-bottom: 0.25em;
 	}
 	a{
 		font-size: 17px;
