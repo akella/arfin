@@ -53,13 +53,12 @@
 			background: #df3a51;
 			ul{
 				display: block;
-				padding: 0 0 15px 0;
+				padding: 0;
 				z-index: 10040;
 				line-height: 1.4;
 				position: absolute;
 				top: 38px;
 				left: 0;
-				background: #df3a51;
 			}
 			&:before{
 				content: "";
@@ -84,26 +83,30 @@
 
 		ul{
 			display: none;
-			&:after{
-				content: "";
-				position: absolute;
-				bottom: -3px;
-				left: 0;
-				height: 3px;
-				width: 100%;
-				background: url(../img/menu_arr_bottom.png) repeat-x;
-			}
+				&:after{
+					content: "";
+					position: absolute;
+					bottom: -3px;
+					left: 0;
+					height: 3px;
+					width: 100%;
+					background: url(../img/menu_arr_bottom.png) repeat-x;
+				}
 			li{
 				position: relative;
-				margin: 5px 9px;
-				border-bottom: 1px solid #f0597d;
+				background: #df3a51;
 				@include prevent-text;
 				width: auto;
 				display: block;
 				padding: 5px 0;
+				margin: 3px 0 0;
 				a{
+					display: block;
+					border-bottom: 1px solid #f0597d;
 					position: relative;
 					padding-left: 20px;
+					margin: 0 9px;
+					//width: 100%;
 					&:before{
 						content: "\25cf";
 						position: absolute;
