@@ -6,6 +6,7 @@
 	background: url(../img/footer_bg.jpg) repeat-x 50% 0 #27417a;
 	min-height: 150px;
 	overflow: hidden;
+	@include transform(translate3d(0,0,0));
 	a{
 		color: #54bdff;
 	}

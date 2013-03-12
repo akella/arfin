@@ -24,6 +24,7 @@
 		color: #54bdff;
 		&:after{
 			@include sized-sprite($icons, arrow_1);
+			//@include transform(translate3d(0,0,0));
 		}
 	}
 	.arrow_darken{

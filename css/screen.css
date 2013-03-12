@@ -126,7 +126,7 @@ a:hover { text-decoration: underline; }
 .footer__feedback form:before, .footer__primary:before, .popup__check:before, .content .wrapper:before, .share:before, .share_article a:before, .footer__feedback form:after, .footer__primary:after, .popup__check:after, .content .wrapper:after, .share:after, .share_article a:after { content: " "; display: table; }
 .footer__feedback form:after, .footer__primary:after, .popup__check:after, .content .wrapper:after, .share:after, .share_article a:after { clear: both; }
 
-.footer { color: #b4cad8; background: url(../img/footer_bg.jpg) repeat-x 50% 0 #27417a; min-height: 150px; overflow: hidden; }
+.footer { color: #b4cad8; background: url(../img/footer_bg.jpg) repeat-x 50% 0 #27417a; min-height: 150px; overflow: hidden; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
 .footer a { color: #54bdff; }
 
 .footer__left { width: 680px; float: left; margin-top: 53px; }
