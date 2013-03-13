@@ -13,7 +13,7 @@ $(document).ready(function() {
 	);
 
 	// primary navigation dropdown
-	$('.js-dropdown > li').hover(
+	$('.js-dropdown > li').hover( 
 		function(){ $(this).addClass('is-open') },
 		function(){ $(this).removeClass('is-open') }
 	);
