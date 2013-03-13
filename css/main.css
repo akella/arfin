@@ -83,7 +83,7 @@
 .location { padding-bottom: 300px; }
 
 .location__list { width: 535px; font-size: 18px; margin-bottom: 64px; }
-.location__list .js-active { color: #fff; background: url("../img/icons/arrow_location.png") no-repeat 0% 50%; }
+.location__list .is-active { color: #fff; background: url("../img/icons/arrow_location.png") no-repeat 0% 50%; }
 .location__list ul { list-style: none; }
 .location__list ul > li { border-bottom: 1px solid #245d98; padding: 10px 0 10px 6px; }
 .location__list ul > li a { position: relative; padding-left: 15px; }
