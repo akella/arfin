@@ -4,7 +4,7 @@ $(document).ready(function() {
 		function(){
 			jQuery(this).children('ul').show();
 			return false;
-			jQuery(this).children('a').addClass('js-active');
+			jQuery(this).children('a').addClass('is-active');
 		},
 		function(){
 			jQuery(this).children('ul').hide();
