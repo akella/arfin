@@ -15,7 +15,14 @@ $break-large: 1180px;
     @content;
   }
 }
+// styles for mainpage
 
+@mixin font-smoothing($val: antialiased) {
+  -webkit-font-smoothing: $val;
+  -moz-font-smoothing: $val;
+  -ms-font-smoothing: $val;
+  -o-font-smoothing: $val;
+}
 // BACKGROUND SIZE
 @mixin background-size($width: 100%, $height: 100%) {
      -moz-background-size: $width $height;

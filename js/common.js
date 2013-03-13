@@ -4,6 +4,7 @@ $(document).ready(function() {
 		function(){
 			jQuery(this).children('ul').show();
 			return false;
+			jQuery(this).children('a').addClass('js-active');
 		},
 		function(){
 			jQuery(this).children('ul').hide();
@@ -12,9 +13,9 @@ $(document).ready(function() {
 	);
 
 	// primary navigation dropdown
-	$('.js-dropdown').hover(
-       function(){ $(this).addClass('js-open') },
-       function(){ $(this).removeClass('js-open') }
+	$('.js-dropdown > li').hover(
+       function(){ $(this).addClass('is-open') },
+       function(){ $(this).removeClass('is-open') }
 	);
 
 	// masonry
